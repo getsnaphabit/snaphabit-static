@@ -1,0 +1,11 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "DQ87579XV3.com.emjaholdingsllc.SnapHabitCoreSuite",
+        "paths": [ "/support/*", "/privacy/*", "/" ]
+      }
+    ]
+  }
+}
