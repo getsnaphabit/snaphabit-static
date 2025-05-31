@@ -6,7 +6,7 @@ Official website for SnapHabit LLC
 ![License](https://img.shields.io/badge/License-Proprietary-blue)
 
 ## About
-This is the static website for SnapHabit LLC, hosting company information and app details for SnapHabit Karuṇā - our compassionate habit awareness app.
+This is the static website for SnapHabit LLC, hosting company information and app details for all our products, including SnapHabit Karuṇā and AwareFlow™.
 
 ## Tech Stack
 - Static HTML/CSS
@@ -20,7 +20,9 @@ https://getsnaphabit.com
 ## Quick Links
 - 🌐 **Live Site**: https://getsnaphabit.com
 - 🏢 **Company**: SnapHabit LLC (Arizona)
-- 📱 **App**: SnapHabit Karuṇā (Launching June 2025)
+- 📱 **Apps**: 
+  - SnapHabit Karuṇā (Launching June 2025)
+  - [AwareFlow™](https://awareflow.app) (Launching 2025)
 - 💰 **Pricing**: $0.99/month (compassionate pricing)
 
 ## Local Development
