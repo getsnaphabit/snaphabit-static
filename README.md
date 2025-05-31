@@ -2,15 +2,36 @@
 
 Official website for SnapHabit LLC
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/d3ad4827-e873-45d0-b240-68a781f5fbd7/deploy-status)](https://app.netlify.com/projects/euphonious-brigadeiros-f005bb/deploys)
+![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Active-success)
+![License](https://img.shields.io/badge/License-Proprietary-blue)
 
 ## About
-This is the static website for SnapHabit LLC, hosting company information and app details.
+This is the static website for SnapHabit LLC, hosting company information and app details for SnapHabit Karuṇā - our compassionate habit awareness app.
 
 ## Tech Stack
 - Static HTML/CSS
-- Hosted on Netlify
-- Auto-deploys from GitHub
+- Hosted on GitHub Pages
+- Auto-deploys from main branch
+- Free SSL via GitHub
 
 ## Domain
 https://getsnaphabit.com
+
+## Quick Links
+- 🌐 **Live Site**: https://getsnaphabit.com
+- 🏢 **Company**: SnapHabit LLC (Arizona)
+- 📱 **App**: SnapHabit Karuṇā (Launching June 2025)
+- 💰 **Pricing**: $0.99/month (compassionate pricing)
+
+## Local Development
+```bash
+git clone https://github.com/getsnaphabit/snaphabit-static.git
+cd snaphabit-static
+# Open index.html in your browser
+```
+
+## Deployment
+Any push to the `main` branch automatically deploys to GitHub Pages.
+
+---
+*Break bad habits quietly. Regain your confidence.*
