@@ -3,8 +3,8 @@
     "apps": [],
     "details": [
       {
-        "appID": "DQ87579XV3.com.emjaholdingsllc.SnapHabitCoreSuite",
-        "paths": [ "/support/*", "/privacy/*", "/" ]
+        "appID": "DQ87579XV3.com.getsnaphabit.app",
+        "paths": [ "/support/*", "/privacy/*", "/terms/*", "/app/*", "/" ]
       }
     ]
   }
