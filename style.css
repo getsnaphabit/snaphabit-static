@@ -1,0 +1,61 @@
+/* style.css - Shared layout for SnapHabit & AwareFlow */
+/* Copyright © 2025 SnapHabit LLC. All rights reserved. */
+
+body {
+  font-family: sans-serif;
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 24px;
+  background: #f9f9f9;
+  color: #222;
+}
+
+h1 {
+  color: #2a7ae2;
+}
+
+.info {
+  margin-bottom: 1.2em;
+}
+
+.label {
+  font-weight: bold;
+}
+
+a {
+  color: #2a7ae2;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.section-title {
+  font-size: 1.2em;
+  margin-top: 2em;
+  color: #1a4d8f;
+}
+
+.box {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px #0001;
+  padding: 18px 20px;
+  margin-bottom: 1.5em;
+}
+
+ul {
+  margin: 0.5em 0 0.5em 1.5em;
+}
+
+@media (max-width: 600px) {
+  body {
+    margin: 20px auto;
+    padding: 16px;
+  }
+
+  .box {
+    padding: 14px 16px;
+  }
+}
