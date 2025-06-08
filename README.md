@@ -23,7 +23,7 @@ https://getsnaphabit.com
 - 📱 **Apps**: 
   - SnapHabit Karuṇā (Launching June 2025)
   - [AwareFlow™](https://awareflow.app) (Launching 2025)
-- 💰 **Pricing**: $0.99/month (compassionate pricing)
+- 💰 **Pricing**: $1.99/month (compassionate pricing)
 
 ## Local Development
 ```bash
