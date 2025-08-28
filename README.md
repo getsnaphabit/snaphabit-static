@@ -4,6 +4,7 @@ Official website for SnapHabit LLC
 
 ![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Active-success)
 ![License](https://img.shields.io/badge/License-Proprietary-blue)
+![Trademark Notice](https://img.shields.io/badge/Not%20Affiliated-Snap%20Inc.-red)
 
 ## About
 This is the static website for SnapHabit LLC, hosting company information and app details for all our products, including SnapHabit Karuṇā and AwareFlow™.
