@@ -1,39 +1,60 @@
 # SnapHabit Website
 
-Official website for SnapHabit LLC
+Official static website for **SnapHabit LLC** — parent company behind [AwareFlow™](https://awareflow.app).
 
 ![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Active-success)
 ![License](https://img.shields.io/badge/License-Proprietary-blue)
 
-## About
-This is the static website for SnapHabit LLC, hosting company information and app details for all our products, including SnapHabit Karuṇā and AwareFlow™.
+---
 
-## Tech Stack
-- Static HTML/CSS
-- Hosted on GitHub Pages
-- Auto-deploys from main branch
-- Free SSL via GitHub
+## 📖 About
+SnapHabit LLC builds **compassionate technology** to help people gently notice and overcome nervous habits.  
+Our focus: **privacy-first design**, real-time awareness, and encouragement without shame.
 
-## Domain
-https://getsnaphabit.com
+This repo hosts the static company website at **[getsnaphabit.com](https://getsnaphabit.com)** with business information, corporate records, and app links.
 
-## Quick Links
-- 🌐 **Live Site**: https://getsnaphabit.com
-- 🏢 **Company**: SnapHabit LLC (Arizona)
-- 📱 **Apps**: 
-  - SnapHabit Karuṇā (Launching June 2025)
-  - [AwareFlow™](https://awareflow.app) (Launching 2025)
-- 💰 **Pricing**: $1.99/month (compassionate pricing)
+---
 
-## Local Development
+## 🛠️ Tech Stack
+- Static **HTML / CSS**
+- Hosted on **GitHub Pages** with free SSL
+- Auto-deploys from `main` branch
+
+---
+
+## 🌐 Domains
+- **Corporate site**: [getsnaphabit.com](https://getsnaphabit.com)  
+- **Product site**: [awareflow.app](https://awareflow.app)  
+
+---
+
+## 📱 Apps
+- **[AwareFlow™](https://awareflow.app)** (in development, 2025)  
+  *A mindful habit companion — privacy-first, real-time awareness with kind nudges.*  
+
+- **SnapHabit Karuṇā** (concept stage)  
+  *Future exploration into calm and resilience.*  
+
+---
+
+## 💰 Pricing
+Planned subscription: **$3.99/month or $24.99/year**  
+Free tier available at launch.
+
+---
+
+## 👩‍💻 Local Development
 ```bash
 git clone https://github.com/getsnaphabit/snaphabit-static.git
 cd snaphabit-static
 # Open index.html in your browser
 ```
 
-## Deployment
-Any push to the `main` branch automatically deploys to GitHub Pages.
+---
+
+## 🚀 Deployment
+Any push to the `main` branch automatically deploys to **GitHub Pages**.  
 
 ---
-*Break bad habits quietly. Regain your confidence.*
+
+*© 2025 SnapHabit LLC — Separate and independent from Snap Inc. AwareFlow™ is a trademark of SnapHabit LLC.*
