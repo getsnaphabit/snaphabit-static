@@ -1,24 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
   <meta charset="UTF-8" />
   <title>SnapHabit LLC — Compassionate Habit Awareness</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#5a7dff" />
+  <meta name="robots" content="index,follow,max-image-preview:large" />
 
   <!-- Differentiated, pre-launch SEO (Lifestyle first) -->
   <meta name="description" content="SnapHabit LLC builds privacy-first wellness apps like AwareFlow™, designed for gentle habit awareness, mindfulness, and emotional healing — not social media." />
 
-  <!-- Security-minded meta (works on static hosts) -->
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' https: data:; style-src 'self' 'unsafe-inline'; script-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'">
+  <!-- Security-minded meta (allow JSON-LD only) -->
+  <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self'; img-src 'self' https: data:; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'">
   <meta name="referrer" content="strict-origin-when-cross-origin" />
 
   <!-- Open Graph / Twitter -->
+  <meta property="og:site_name" content="SnapHabit LLC" />
   <meta property="og:title" content="SnapHabit LLC — Compassionate Habit Awareness" />
   <meta property="og:description" content="Privacy-first wellness technology for gentle habit awareness. AwareFlow™ is in development." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://getsnaphabit.com/" />
   <meta property="og:image" content="https://getsnaphabit.com/SnapHabitLogoTrnspBck.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
   <meta name="twitter:card" content="summary_large_image" />
 
   <!-- Canonical -->
@@ -38,6 +43,20 @@
     "logo": "https://getsnaphabit.com/SnapHabitLogoTrnspBck.png",
     "description": "Privacy-first wellness technology for gentle habit awareness.",
     "foundingDate": "2025-05-12",
+    "foundingLocation": {
+      "@type": "Place",
+      "name": "Scottsdale, Arizona, United States",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Scottsdale",
+        "addressRegion": "AZ",
+        "addressCountry": "US"
+      }
+    },
+    "founder": {
+      "@type": "Person",
+      "name": "Jason Babcock"
+    },
     "email": "support@awareflow.app",
     "telephone": "+1-480-939-6099",
     "address": {
@@ -48,10 +67,22 @@
       "postalCode": "85259",
       "addressCountry": "US"
     },
+    "contactPoint": [{
+      "@type": "ContactPoint",
+      "contactType": "customer support",
+      "email": "support@awareflow.app",
+      "telephone": "+1-480-939-6099",
+      "areaServed": "US",
+      "availableLanguage": ["en"]
+    }],
     "sameAs": [
       "https://awareflow.app",
       "https://github.com/getsnaphabit"
-    ]
+    ],
+    "makesOffer": {
+      "@type": "Offer",
+      "category": "Lifestyle and wellbeing software"
+    }
   }
   </script>
 </head>
@@ -66,6 +97,7 @@
 
   <!-- Nav -->
   <nav aria-label="Primary">
+    <a href="https://getsnaphabit.com/" aria-current="page">Home</a> |
     <a href="https://awareflow.app" target="_blank" rel="noopener noreferrer">AwareFlow™</a> |
     <a href="mailto:support@awareflow.app">Contact</a> |
     <a href="https://github.com/getsnaphabit" target="_blank" rel="noopener noreferrer">GitHub</a>
@@ -134,12 +166,12 @@
       <p><strong>Goods &amp; Services:</strong> Mobile and web apps for habit awareness and personal development</p>
     </section>
 
-    <!-- Planned App Details (Lifestyle primary, Health & Fitness secondary) -->
+    <!-- Planned App Details (align with current iOS target if you want) -->
     <section class="box">
       <h2>Planned App Details</h2>
       <p><strong>Primary Category:</strong> Lifestyle</p>
       <p><strong>Secondary Category:</strong> Health &amp; Fitness</p>
-      <p><strong>Platforms:</strong> iPhone, iPad (targeting iOS 18.5+); Apple Watch under consideration</p>
+      <p><strong>Platforms:</strong> iPhone, iPad (targeting iOS 26+); Apple Watch under consideration</p>
       <p><strong>Pricing:</strong> Planned free tier with optional subscription</p>
       <p><strong>Approach:</strong> Real-time habit awareness, kind nudges, and privacy-first design — all on device</p>
     </section>
@@ -158,6 +190,7 @@
 
   <footer>
     <p>
+      <a href="https://getsnaphabit.com/" aria-current="page">Home</a> |
       <a href="https://awareflow.app" target="_blank" rel="noopener noreferrer">AwareFlow™</a> |
       <a href="mailto:support@awareflow.app">Contact</a> |
       <a href="/privacy.html">Privacy</a> |
