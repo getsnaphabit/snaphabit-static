@@ -50,6 +50,13 @@ This website is deployed at:
 - 📬 **Support**: support@awareflow.app  
 - 🧑‍💻 **GitHub**: https://github.com/getsnaphabit  
 
+## Governance & Policies
+
+- [Support Policy](SUPPORT.md)
+- [Security Policy](SECURITY.md)
+- [License](LICENSE.md)
+- [Citation](CITATION.cff)
+
 ---
 
 ## **Corporate & Legal Information**
