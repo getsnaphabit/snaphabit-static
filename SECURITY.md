@@ -1,50 +1,102 @@
+# Security Policy – SnapHabit LLC
+
+SnapHabit LLC takes privacy, data protection, and responsible disclosure seriously.  
+This policy outlines how to report security issues and what to expect from us.
+
 ---
 
-## 2. `SECURITY.md`
+## 🔐 Our Security Philosophy
 
-```markdown
-# Security Policy
+SnapHabit LLC builds **privacy‑first wellness technology** focused on:
 
-SnapHabit LLC takes privacy, data protection, and application security seriously.
+- On‑device behavioral audio detection  
+- No raw audio storage  
+- Minimal metadata retention  
+- User‑controlled data  
+- Strict transparency  
 
-This repository hosts the **public static website** for SnapHabit LLC  
-(https://getsnaphabit.com). While the site itself does not collect credentials or
-store user data directly, it represents our public surface for product and
-company information, and we want it to be safe.
+Our provisional patent covers localized detection pipelines to ensure maximum privacy.
 
-## Supported Properties
+---
 
-This policy applies to security or abuse concerns involving:
+## 🛡️ Reporting a Vulnerability
 
-- https://getsnaphabit.com  
-- https://awareflow.app  
-- Any related static assets served from this repository
+If you discover a security or privacy issue, contact:
 
-## Reporting a Vulnerability
+📧 **security@awareflow.app**  
+(Alternate: support@awareflow.app)
 
-If you believe you have found a security issue, vulnerability, or misconfiguration
-that could impact SnapHabit LLC properties or users, please contact us:
+### Include:
 
-- 📧 **security@awareflow.app**
+1. Description of the issue  
+2. Reproduction steps  
+3. Potential impact  
+4. Proof‑of‑concept (if available)  
+5. Whether you prefer public or private acknowledgment  
 
-Include as much detail as possible:
+We acknowledge reports within **72 hours**.
 
-- A clear description of the issue  
-- Steps to reproduce (if applicable)  
-- Any relevant URLs, headers, or screenshots  
-- Your contact information for follow-up
+---
 
-Please **do not** publicly disclose vulnerabilities or exploit them beyond what is
-necessary to demonstrate proof-of-concept.
+## 🤝 Responsible Disclosure
 
-## Our Commitment
+We ask that you:
 
-When you report a security issue in good faith, SnapHabit LLC will:
+- Avoid public disclosure until we evaluate the issue  
+- Do not access other users’ data  
+- Avoid disruptive testing (e.g., denial‑of‑service)  
+- Avoid automated scanners that overload servers  
 
-- Acknowledge receipt of your report  
-- Investigate the issue promptly  
-- Take appropriate action to remediate confirmed issues  
-- Credit responsible disclosures when appropriate and requested  
+We commit to:
 
-At this time, SnapHabit LLC does **not** operate a formal bug bounty program, but
-we deeply appreciate responsible security research that helps keep users safe.
+- Verifying all non‑spam reports  
+- Providing fixes or mitigations  
+- Communicating status updates  
+- Crediting contributors (if desired)
+
+---
+
+## 🌐 Scope
+
+Covered:
+
+- getsnaphabit.com  
+- awareflow.app  
+- Static website assets  
+- All apps shipped under team ID **DQ87579XV3**  
+
+Not covered:
+
+- Third‑party services (GitHub Pages, DNS, Apple APIs)  
+- Personal forks or modified versions  
+
+---
+
+## ❗ Out of Scope Examples
+
+These are not considered vulnerabilities:
+
+- Missing headers on GitHub Pages  
+- CSS/HTML injection requiring device access  
+- Self‑XSS  
+- Rate‑limiting complaints  
+- Social engineering attempts  
+
+---
+
+## 🔏 Data Protection Commitments
+
+SnapHabit LLC ensures:
+
+- No cloud audio processing  
+- No advertising identifiers  
+- No sale or transfer of personal data  
+- User may request data deletion at any time  
+- All habit detection runs locally  
+
+---
+
+## 📄 Revision History
+
+- **v1.0 — November 2025:** Initial publication.
+
