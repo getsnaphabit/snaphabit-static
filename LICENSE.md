@@ -1,6 +1,7 @@
 # Proprietary License – SnapHabit LLC
 
-© 2025 SnapHabit LLC. All rights reserved.
+© 2025 SnapHabit LLC.
+All rights reserved.
 
 This repository and its contents (the “Software”) are the confidential and proprietary property of **SnapHabit LLC**, Phoenix, Arizona, USA.
 
