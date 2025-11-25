@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+title: "SnapHabit Static Website"
+message: "If you use or reference this project in academic or clinical work, please cite it using the metadata below."
+type: software
+
+authors:
+  - family-names: Babcock
+    given-names: Jason
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+
+abstract: >
+  Public static website for SnapHabit LLC, publisher of AwareFlow™ and
+  SnapHabit Karuṇā. The site describes a privacy-first, on-device behavioral
+  acoustic detection framework, related wellness technology, and associated
+  intellectual property status.
+
+repository-code: "https://github.com/getsnaphabit/snaphabit-static"
+url: "https://getsnaphabit.com"
+
+keywords:
+  - SnapHabit
+  - AwareFlow
+  - behavioral audio detection
+  - on-device processing
+  - wellness technology
+  - digital biomarkers
+
+license: "Proprietary"
+version: "1.0.0"
+date-released: "2025-11-25"
