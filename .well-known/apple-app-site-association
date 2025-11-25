@@ -4,7 +4,13 @@
     "details": [
       {
         "appID": "DQ87579XV3.com.getsnaphabit.app",
-        "paths": [ "/support/*", "/privacy/*", "/terms/*", "/app/*", "/" ]
+        "paths": [
+          "/support/*",
+          "/privacy/*",
+          "/terms/*",
+          "/app/*",
+          "/"
+        ]
       }
     ]
   }
