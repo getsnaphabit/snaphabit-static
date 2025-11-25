@@ -19,7 +19,7 @@
   --shadow: 0 2px 8px rgba(0,0,0,0.06);
 
   /* Layout */
-  --content-max: 720px;
+  --content-max: 800px;
   --radius: 10px;
   --space: 24px;
   --space-sm: 14px;
@@ -37,10 +37,9 @@
     --text: #e9e9ec;
     --muted: #a5a8b3;
     --shadow: 0 2px 10px rgba(0,0,0,0.5);
-    --brand-accent: #7fb1ff;
-    --brand-accent-dark: #a9c7ff;
+    --brand-accent: #8ab8ff;
+    --brand-accent-dark: #c4d6ff;
   }
-}
 
 /* ---- Base ----------------------------------------------------------------- */
 *,
@@ -61,9 +60,9 @@ body {
   hyphens: auto;
 
   /* Content column */
+.content-container {
   max-width: var(--content-max);
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
 }
 
 /* ---- Type ----------------------------------------------------------------- */
@@ -112,8 +111,17 @@ a:focus-visible {
 .label { font-weight: 700; }
 
 /* ---- Lists ---------------------------------------------------------------- */
-ul { margin: 0.5em 0 0.5em 1.4em; }
-li + li { margin-top: 0.35em; }
+ul {
+  margin: 0.5em 0 0.5em 1.4em; padding: 0;
+}
+
+li + li {
+  margin-top: 0.35em;
+}
+
+li {
+  line-height: 1.6;
+}
 
 /* ---- Header / Logo -------------------------------------------------------- */
 .logo {
@@ -201,7 +209,7 @@ img { max-width: 100%; height: auto; }
   body {
     background: #fff;
     color: #000;
-    font-family: Georgia, "Times New Roman", serif;
+    font-family: "Times New Roman", Georgia, serif; /* or just reuse var(--font-sans) if you want full matching */
     line-height: 1.5;
     max-width: none;
     padding: 0;
