@@ -1,6 +1,7 @@
 # NOTICE
 
-© 2025 SnapHabit LLC. All rights reserved.
+© 2025 SnapHabit LLC. 
+All rights reserved.
 
 This repository and all associated works are proprietary to **SnapHabit LLC** and protected under U.S. and international law.
 
