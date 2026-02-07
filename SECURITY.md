@@ -98,5 +98,5 @@ SnapHabit LLC ensures:
 
 ## 📄 Revision History
 
+- **v1.1 — February 2026:** Minor updates.
 - **v1.0 — November 2025:** Initial publication.
-
