@@ -95,3 +95,52 @@ This covers the AwareFlow detection pipeline, calibration system, contextual met
 
 ## **Local Development**
 ```bash
+git clone https://github.com/getsnaphabit/snaphabit-static.git
+cd snaphabit-static
+# Open index.html in your browser
+```
+
+Static sites require no build system — just edit and push.
+
+---
+
+## **Deployment**
+
+Any push to the **main** branch automatically deploys to GitHub Pages.
+
+If GitHub Pages needs to be re-enabled:
+
+1. Go to **Settings → Pages**
+2. Set **Branch: main / root**
+3. Save
+
+Deployment typically completes in under 60 seconds.
+
+---
+
+## **Security Notes**
+
+- CSP configured to block remote scripts
+- No analytics, trackers, or third-party cookies
+- All images served locally or via HTTPS
+- Organization JSON-LD is self-hosted only
+
+This aligns with SnapHabit's **privacy-first** philosophy.
+
+---
+
+## **Legal Notice**
+
+SnapHabit LLC is an independent company and is **not affiliated with, sponsored by, or endorsed by Snap Inc. (Snapchat).**
+
+All uses of **SnapHabit™, AwareFlow™, and all associated marks** are proprietary to SnapHabit LLC.
+
+See:
+- **NOTICE.md** — Trademark & Copyright Statements
+- **LICENSE.md** — Proprietary License & Usage Restrictions
+
+---
+
+### **Tagline**
+
+*Notice your habits before someone else does.*
