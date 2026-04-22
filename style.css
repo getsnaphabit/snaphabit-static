@@ -58,7 +58,8 @@ body {
   line-height: 1.7;
   letter-spacing: 0.01em;
   word-break: break-word;
-  hyphens: auto;
+  hyphens: none;
+  -webkit-hyphens: none;
 }
 
 /* Content column */
