@@ -1,5 +1,5 @@
 /* ==========================================================================
-   style.css — Shared layout for SnapHabit & AwareFlow
+   style.css: shared layout for SnapHabit &amp; AwareFlow
    Copyright © 2025–2026 SnapHabit LLC. All rights reserved.
    - Responsive, accessible (WCAG 2.1 AA), dark-mode aware
    - Minimal footprint; no frameworks; safe defaults
@@ -140,7 +140,24 @@ li {
 .subtitle {
   text-align: center;
   color: var(--muted);
-  margin: 0 0 1.2em;
+  margin: 0 0 0.6em;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+/* Hero lede (goods description in plain product voice) */
+.hero-lede {
+  max-width: 640px;
+  margin: 0 auto 1.2em;
+  text-align: center;
+  color: var(--text);
+  font-size: 1.02rem;
+}
+
+/* Hero call-to-action container */
+.hero-cta {
+  text-align: center;
+  margin: 0 0 1.6em;
 }
 
 /* ---- Nav ------------------------------------------------------------------ */
@@ -178,6 +195,13 @@ nav a {
   outline: 2px solid #fff;
   outline-offset: 2px;
   box-shadow: 0 0 0 3px rgba(42,122,226,0.45);
+}
+
+/* Hero CTA: larger, more prominent than default .button-link */
+.button-cta {
+  padding: 0.85rem 1.6rem;
+  font-size: 1.05rem;
+  border-radius: 10px;
 }
 
 /* ---- Footer --------------------------------------------------------------- */
