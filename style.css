@@ -197,11 +197,21 @@ nav a {
   box-shadow: 0 0 0 3px rgba(42,122,226,0.45);
 }
 
-/* Hero CTA: larger, more prominent than default .button-link */
-.button-cta {
-  padding: 0.85rem 1.6rem;
-  font-size: 1.05rem;
-  border-radius: 10px;
+/* Apple "Download on the App Store" badge.
+   Native SVG is 120x40 (3:1). Sized up for hero prominence without
+   violating Apple identity rules (no recolor, rotate, shadow, gradient). */
+.app-store-badge {
+  height: 56px;
+  width: auto;
+  display: inline-block;
+}
+.app-store-badge:hover {
+  opacity: 0.92;
+}
+a:focus-visible .app-store-badge {
+  outline: 2px solid var(--brand-accent);
+  outline-offset: 3px;
+  border-radius: 6px;
 }
 
 /* ---- Footer --------------------------------------------------------------- */
