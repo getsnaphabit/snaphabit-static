@@ -251,6 +251,21 @@ img { max-width: 100%; height: auto; }
     line-height: 1.5;
     max-width: none;
     padding: 0;
+    /* Safari's "Export as PDF" print engine falls back to its own
+       auto-hyphenation inside @media print even when the screen cascade
+       set hyphens: none. Re-declare here so specimen captures never split
+       words mid-line. The USPTO spec doc for SNAPHABIT specifically
+       reads "software", "modification", "Personalized", and "provisional",
+       not their hyphenated forms. */
+    hyphens: none;
+    -webkit-hyphens: none;
+    word-break: normal;
+  }
+  /* Belt-and-suspenders: every element inherits the no-hyphen rule for
+     print so section headings and nested spans cannot re-enable it. */
+  * {
+    hyphens: none !important;
+    -webkit-hyphens: none !important;
   }
   .logo, nav, footer { display: none !important; }
   .box { box-shadow: none; border: 0; border-radius: 0; }
